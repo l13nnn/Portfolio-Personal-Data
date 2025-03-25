@@ -1,0 +1,86 @@
+.home-section {
+    margin-left: 50px;
+}
+
+.logo-text-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-text-container img {
+    width: 60px;
+    height: 60px;
+}
+
+.logo-text-container h1 {
+    font-family: "Dancing Script", cursive;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.home-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.home-nav {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    font-family: "Nunito", sans-serif;
+}
+
+.home-nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.home-description {
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.home-desc-text {
+    font-family: "Nunito", sans-serif;
+}
+
+.home-description h3 {
+    color: #FF5876;
+}
+
+.home-desc-text-1 {
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+}
+
+.home-desc-text-2 {
+    margin-top: 10px;
+    font-family: "Nunito", sans-serif;
+    font-size: 17px;
+}
+
+.home-button {
+    margin-top: 20px;
+}
+
+.home-button button {
+    background-color: #FF5876;
+    border-radius: 10px;
+    padding: 15px;
+    border: none;
+    color: white;
+    font-family: "Nunito", sans-serif;
+    cursor: pointer;
+}
+
+.home-container {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
