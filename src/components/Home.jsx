@@ -1,6 +1,8 @@
 import React, { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import '../styles/Home.css';
+import Logo from '../assets/WhatsApp_Image_2025-03-25_at_10.37.33_4e0b2ad2-removebg-preview.png';
+import Photo from '../assets/Foto__3_-removebg-preview.png';
 
 function Home() {
     const logoContainer = useRef(null);
@@ -43,7 +45,7 @@ function Home() {
         <div className="home-section">
             <div className='home-header'>
                 <div className='logo-text-container' ref={logoContainer}>
-                    <img className="home-image-1" src="src/assets/WhatsApp_Image_2025-03-25_at_10.37.33_4e0b2ad2-removebg-preview.png" />
+                    <img className="home-image-1" src={Logo} />
                     <h1>Coquette</h1>
                 </div>
                 <div className='home-nav'>
@@ -70,7 +72,7 @@ function Home() {
                     </div>
                 </div>
                 <div className='home-image' ref={imageContainer}>
-                    <img src="src/assets/Foto__3_-removebg-preview.png" />
+                    <img src={Photo} />
                 </div>
             </div>
         </div>
