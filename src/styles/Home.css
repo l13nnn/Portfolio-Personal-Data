@@ -40,6 +40,15 @@
 .home-nav ul li a {
     text-decoration: none;
     color: black;
+    background-color: transparent;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.home-nav ul li a:hover {
+    color: white; 
+    background-color: rgba(255, 192, 203, 0.6);
 }
 
 .home-description {
@@ -51,7 +60,7 @@
     font-family: "Nunito", sans-serif;
 }
 
-.home-description h3 {
+.home-description span {
     color: #FF5876;
 }
 
@@ -78,6 +87,11 @@
     color: white;
     font-family: "Nunito", sans-serif;
     cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.home-button button:hover {
+    transform: scale(0.9); 
 }
 
 .home-container {
