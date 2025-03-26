@@ -1,6 +1,8 @@
 .home-section {
     margin-left: 50px;
     background: url(../assets/WhatsApp_Image_2025-03-25_at_11.00.22_bdcb922a-removebg-preview.png) no-repeat right;
+    background-position: right top !important;
+    background-size: auto;
 }
 
 .logo-text-container {
@@ -77,6 +79,7 @@
 
 .home-button {
     margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .home-button button {
@@ -98,4 +101,118 @@
     display: flex;
     justify-content: space-between;
     align-self: center;
+}
+
+.home-image img {
+    margin-right: 100px;
+}
+
+.logo-text-container {
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: start; 
+    gap: 10px; 
+}
+
+.logo-text-container img {
+    width: 60px; 
+    height: 60px; 
+    display: inline-block; 
+}
+
+.logo-text-container h1 {
+    font-family: "Dancing Script", cursive;
+    font-size: 2rem; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+    color: #333; 
+    margin: 0; 
+}
+
+.home-nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: "Nunito", sans-serif;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.home-nav ul li a:hover {
+    color: #FF5876;
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .home-section {
+        margin-left: 10px; 
+        background-position: top center; 
+        background-size: 80%;
+        padding: 10px; 
+        text-align: center; 
+        overflow: hidden;
+    }
+
+    .logo-text-container {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .logo-text-container img {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 10px; 
+    }
+
+    .logo-text-container h1 {
+        font-size: 1.5rem; 
+    }
+
+    .home-nav ul {
+        flex-direction: row; 
+        gap: 5px; 
+        padding: 30px;
+    }
+
+    .home-description {
+        margin-left: 0; 
+        margin-top: 20px;
+    }
+
+    .home-desc-text-1 h1 {
+        font-size: 1.8rem; 
+    }
+
+    .home-desc-text-2 {
+        font-size: 0.9rem;
+    }
+
+    .home-button button {
+        width: 100%; 
+        padding: 12px; 
+    }
+
+    .home-container {
+        flex-direction: column-reverse; 
+        align-items: center; 
+    }
+
+    .home-image img {
+        width: 100px; 
+        margin-right: -10px;
+    }
+
+    .logo-text-container {
+        flex-direction: row; 
+        justify-content: center; 
+    }
+
+    .logo-text-container img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .logo-text-container h1 {
+        font-size: 1.5rem; 
+    }
+    
 }
