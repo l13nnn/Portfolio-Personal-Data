@@ -23,6 +23,7 @@
   
 .skill-name {
     flex: 1;
+    font-family: "Nunito", sans-serif;
 }
   
 .skill-bar {
@@ -42,4 +43,8 @@
 .skill-percentage {
     width: 50px;
     text-align: right;
+}
+
+.skill img {
+    cursor: pointer;
 }
