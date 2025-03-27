@@ -16,11 +16,11 @@
 }
 
 .projects-swiper {
-    width: 100%; /* Memastikan seluruh container memenuhi lebar layar */
-    max-width: 1200px; /* Tetapkan batas maksimal lebar */
-    margin: 0 auto; /* Tengahkan container */
+    width: 100%; 
+    max-width: 1200px; 
+    margin: 0 auto; 
     box-sizing: border-box;
-    overflow: hidden; /* Mencegah elemen keluar dari container */
+    overflow: hidden; 
 }
 
 .swiper-slide {
