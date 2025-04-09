@@ -92,7 +92,7 @@ function Contact() {
                 </div>
                 <div className='contact-link'>
                     <a href="https://www.tiktok.com/@iilennaa?_t=ZS-8v1cjHvnWcb&_r=1" target="_blank" rel="noopener noreferrer">TikTok</a>
-                    <a href="https://x.com/chieee_marx?t=P7ZDOVo2ALMji3DrzpRhzQ&s=09" target="_blank" rel="noopener noreferrer">Twitter</a>
+                    <a href="https://x.com/chieee_marx?t=P7ZDOVo2ALMji3DrzpRhzQ&s=09" target="_blank" rel="noopener noreferrer">X</a>
                     <a href="https://www.instagram.com/liennn.n_?igsh=YTc0ZjA0cG1ibnVi" target="_blank" rel="noopener noreferrer">Instagram</a>
                 </div>
             </div>

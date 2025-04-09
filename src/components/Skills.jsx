@@ -13,8 +13,8 @@ gsap.registerPlugin(ScrollTrigger)
 
 const skills = [
   { name: "HTML", icon: HTML, level: 100 },
-  { name: "CSS", icon: CSS, level: 100 },
-  { name: "JavaScript", icon: JS, level: 100 },
+  { name: "CSS", icon: CSS, level: 90 },
+  { name: "JavaScript", icon: JS, level: 60 },
   { name: "Canva Editing", icon: CANVA, level: 100 },
   { name: "Video Editing", icon: CAPCUT, level: 100 },
   { name: "Social Media Manager", icon: TIKTOK, level: 100 },
@@ -94,7 +94,7 @@ function Skill()  {
           <div className="skill-bar">
             <div className="skill-level" style={{ width: `${skill.level}%` }}></div>
           </div>
-          <span className="skill-percentage">⭐</span>
+          <span className="skill-percentage">{skill.level}%</span>
         </div>
       ))}
     </div>
